@@ -52,6 +52,8 @@
   <ItemGroup>
     <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory.png" />
     <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory2.png" />
+    <Content Include="CreationalPatterns\AbstractFactory\Book_AbstractFactory.png" />
+    <Content Include="Designpatternrelationships.png" />
     <None Include="CreationalPatterns\AbstractFactory\README.MD" />
   </ItemGroup>
   <ItemGroup />
