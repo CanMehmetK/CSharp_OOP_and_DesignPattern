@@ -45,6 +45,7 @@
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductA.cs" />
+    <Compile Include="CreationalPatterns\Notlar.cs" />
     <Compile Include="Notlar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
