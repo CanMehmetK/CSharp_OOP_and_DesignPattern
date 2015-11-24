@@ -1,10 +1,9 @@
-﻿// TODO@All: Lütfen tarih ve isim ekleyerek yazın. 
+﻿
 
-2015 11 24 - kanpinar
+##### 2015 11 24 - kanpinar
 
-Design Patterns: Elements of Reusable Object-Oriented Software  
-Page : 99 - Abstract Factory
-
+## Design Patterns: Elements of Reusable Object-Oriented Software  
+## Page : 99 - Abstract Factory
 
 Intent / Niyet
     Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
