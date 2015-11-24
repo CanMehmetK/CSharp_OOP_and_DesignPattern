@@ -9,10 +9,7 @@ Intent <br/>
     Provide an interface for creating families of related or dependent objects without specifying their concrete classes.<br/>
 
 Niyet<br/>
-    Somut classları belirtmeden ilişkili veya bağımlı objeleri ailesini oluşturmak için bir interface sağlmak.<br/>
-
-
-
+    Somut classları belirtmeden ilişkili veya bağımlı objeleri ailesini oluşturmak için bir interface sağlamak.<br/>
 
 Motivation<br/>
     Consider a user interface toolkit that supports multiple look-and-feel standards,such as Motif and Presentation Manager. <br/>
@@ -26,9 +23,9 @@ WidgetFactory's interface has an operation that returns a new widget object for 
 Clients call these operations to obtain widget instances, but clients aren't aware of the concrete classes they're using. <br/>
 Thus clients stay independent of the prevailing look and feel.   <br/>
 
-    Birden fazla kullanım ve görünüm destekleyen bir kullanıcı arayüzünü göz önünde bulundurun, Motif ve Presentation Manager gibi.<br/>
+   Birden fazla kullanım ve görünüm destekleyen bir kullanıcı arayüzünü göz önünde bulundurun, Motif ve Presentation Manager gibi.<br/>
 Farklı görünüm ve kullanım şunu ifade eder; farklı görsellik ve çalışma şekli kullanıcı arayüzü "widgets" için kaydırma çubuğu pencere ve düğmeler gibi.<br/>
-Tema** standardının taşınabilirliği için uygulama kod içerisinde belirli bir tema için widget ları içermemelidir.**<br/>
+Tema standardının taşınabilirliği için uygulama kod içerisinde belirli bir tema için widget ları içermemelidir.<br/>
 <br/>
 <br/>
 ** : Kelimelerin bazılarının tam karşılığını bulamıyorum. O yüzden ingilizcelerini ile yazıyorum.<br/>
