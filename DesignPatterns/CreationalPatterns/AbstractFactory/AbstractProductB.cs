@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    public class Class1
+    public abstract class AbstractProductB
     {
     }
 }
