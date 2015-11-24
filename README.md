@@ -1,5 +1,7 @@
-# CSharp_OOP_and_DesignPattern
+# CSharp OOP and DesignPattern Examples
+
 applying OOP and Design Patterns in .Net Examples
-.Net içinde Nesne Yönelimli Programlama ve Tasarım Kalıpları
+C# ile Nesne Yönelimli Programlama ve Tasarım Kalıpları Örnekleri
+
 
 
