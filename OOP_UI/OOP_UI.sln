@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_UI", "OOP_UI.csproj", "{A26FC0E3-5AF0-49A1-A8BC-5D1743E10EAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "..\OOP\OOP.csproj", "{D4EE6E02-0444-4334-9076-81978CDF20A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "..\DesignPatterns\DesignPatterns.csproj", "{F46BB4BB-C183-4F7D-8DAD-297C04178624}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A26FC0E3-5AF0-49A1-A8BC-5D1743E10EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26FC0E3-5AF0-49A1-A8BC-5D1743E10EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26FC0E3-5AF0-49A1-A8BC-5D1743E10EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EE6E02-0444-4334-9076-81978CDF20A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EE6E02-0444-4334-9076-81978CDF20A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EE6E02-0444-4334-9076-81978CDF20A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EE6E02-0444-4334-9076-81978CDF20A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
