@@ -14,11 +14,10 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
         Bu durumda birbirleriyle ilişkili nesneleri (aile) yaratan farklı fabrika sınıfları oluşturulur. 
         Bu fabrika sınıfları ortak bir soyut fabrikadan türetilir.
     */
+
     public interface AbstractFactroy
     {
         ProductA1 createProductA();
         ProductB1 createProductB();
     }
-
-
 }

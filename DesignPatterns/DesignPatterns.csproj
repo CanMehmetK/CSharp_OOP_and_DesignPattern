@@ -52,7 +52,7 @@
   <ItemGroup>
     <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory.png" />
     <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory2.png" />
-    <Compile Include="CreationalPatterns\AbstractFactory\Notlar.cs" />
+    <None Include="CreationalPatterns\AbstractFactory\README.MD" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
