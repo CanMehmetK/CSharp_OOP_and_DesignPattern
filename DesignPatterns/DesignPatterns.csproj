@@ -45,7 +45,6 @@
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductA.cs" />
-    <Compile Include="CreationalPatterns\Notlar.cs" />
     <Compile Include="Notlar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +54,7 @@
     <Content Include="CreationalPatterns\AbstractFactory\Book_AbstractFactory.png" />
     <Content Include="Designpatternrelationships.png" />
     <None Include="CreationalPatterns\AbstractFactory\README.MD" />
+    <None Include="CreationalPatterns\README.MD" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
