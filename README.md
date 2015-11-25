@@ -12,7 +12,7 @@ GoF (Gang of Four) kalıpları 1994'te yayınanan dört yazarlı bir kitap ile d
 Kitapta konu edilen kalıplar aşağıdaki gibi. ( İşlendikçe aşağıda işaretlenecektir. )
 
 ### Creational Patterns
-		[Abstract Factory](https://github.com/kanpinar/CSharp_OOP_and_DesignPattern/tree/master/DesignPatterns/CreationalPatterns/AbstractFactory) ................................................... 99
+		 [Abstract Factory](https://github.com/kanpinar/CSharp_OOP_and_DesignPattern/tree/master/DesignPatterns/CreationalPatterns/AbstractFactory) ................................................... 99
         Builder ........................................................... 110
         Factory Method .................................................... 121
         Prototype ......................................................... 133
