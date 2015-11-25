@@ -48,9 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory.png" />
-    <Content Include="CreationalPatterns\AbstractFactory\AbstractFactory2.png" />
-    <Content Include="CreationalPatterns\AbstractFactory\Book_AbstractFactory.png" />
+    <Content Include="CreationalPatterns\AbstractFactory\Resources\AbstractFactory.png" />
+    <Content Include="CreationalPatterns\AbstractFactory\Resources\AbstractFactory2.png" />
+    <Content Include="CreationalPatterns\AbstractFactory\Resources\Book_AbstractFactory.png" />
     <Content Include="Designpatternrelationships.png" />
     <None Include="CreationalPatterns\AbstractFactory\README.MD" />
     <None Include="CreationalPatterns\README.MD" />
