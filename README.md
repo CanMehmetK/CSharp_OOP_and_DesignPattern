@@ -12,30 +12,30 @@ GoF (Gang of Four) kalıpları 1994'te yayınanan dört yazarlı bir kitap ile d
 Kitapta konu edilen kalıplar aşağıdaki gibi. ( İşlendikçe aşağıda işaretlenecektir. )
 
 ### Creational Patterns
-		 [Abstract Factory](https://github.com/kanpinar/CSharp_OOP_and_DesignPattern/tree/master/DesignPatterns/CreationalPatterns/AbstractFactory) ................................................... 99
-        Builder ........................................................... 110
-        Factory Method .................................................... 121
-        Prototype ......................................................... 133
-        Singleton ......................................................... 144
-        
+* [Abstract Factory](https://github.com/kanpinar/CSharp_OOP_and_DesignPattern/tree/master/DesignPatterns/CreationalPatterns/AbstractFactory)
+* [Builder]()
+* [Factory Method]()
+* [Prototype]()
+* [Singleton]()
+
 ### Structural Patterns
-        Adapter ........................................................... 157
-        Bridge ............................................................ 171
-        Composite ......................................................... 183
-		Decorator ......................................................... 196
-		Façade ............................................................ 208
-		Flyweight ......................................................... 218
-		Proxy ............................................................. 233
+* [Adapter]()
+* [Bridge]()
+* [Composite]()
+* [Decorator]()
+* [Façade]()
+* [Flyweight]()
+* [Proxy]()
     
 ### Behavioral Patterns
-		Chain of Responsibility ........................................... 251
-		Command ........................................................... 263
-		Interpreter ....................................................... 274
-		Iterator .......................................................... 289
-		Mediator .......................................................... 305
-		Memento ........................................................... 316
-		Observer .......................................................... 326
-		State ............................................................. 338
-		Strategy .......................................................... 349
-		Template Method ................................................... 360
-		Visitor ........................................................... 366
+* [Chain of Responsibility]()
+* [Command]()
+* [Interpreter]()
+* [Iterator]()
+* [Mediator]()
+* [Memento]()
+* [Observer]()
+* [State]()
+* [Strategy]()
+* [Template Method]()
+* [Visitor]()
