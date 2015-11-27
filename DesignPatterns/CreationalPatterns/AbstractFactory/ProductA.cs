@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    public class ProductA1 : AbstractProductA
+    /// <summary>
+    /// The 'ProductA1' class
+    /// </summary>
+    class ProductA1 : AbstractProductA
     {
     }
 
-    public class ProductA2 : AbstractProductA
+    /// <summary>
+    /// The 'ProductA2' class
+    /// </summary>
+    class ProductA2 : AbstractProductA
     {
     }
 }

@@ -1,54 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductB1">
-    <Position X="9" Y="1.5" Width="1.5" />
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.AbstractFactory">
+    <Position X="5.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreationalPatterns\AbstractFactory\ProductB.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductA1">
-    <Position X="3.75" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreationalPatterns\AbstractFactory\ProductA.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>CreationalPatterns\AbstractFactory\AbstractFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.AbstractProductA" Collapsed="true">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CreationalPatterns\AbstractFactory\AbstractProductA.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.AbstractProductB" Collapsed="true">
-    <Position X="8" Y="0.5" Width="1.5" />
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.AbstractProductB">
+    <Position X="3.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CreationalPatterns\AbstractFactory\AbstractProductB.cs</FileName>
       <NewMemberFileName>CreationalPatterns\AbstractFactory\AbstractProductA.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductA2">
-    <Position X="5.5" Y="1.5" Width="1.5" />
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.Client">
+    <Position X="7.75" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CreationalPatterns\AbstractFactory\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductA1" Collapsed="true">
+    <Position X="2" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CreationalPatterns\AbstractFactory\ProductA.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductB2">
-    <Position X="7.25" Y="1.5" Width="1.5" />
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductA2" Collapsed="true">
+    <Position X="4.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\AbstractFactory\ProductA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductB1">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CreationalPatterns\AbstractFactory\ProductB.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="DesignPatterns.CreationalPatterns.AbstractFactory.AbstractFactroy">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="DesignPatterns.CreationalPatterns.AbstractFactory.ProductB2">
+    <Position X="4.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreationalPatterns\AbstractFactory\AbstractFactory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreationalPatterns\AbstractFactory\ProductB.cs</FileName>
     </TypeIdentifier>
-  </Interface>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

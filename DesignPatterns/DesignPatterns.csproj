@@ -43,6 +43,7 @@
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductA.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductB.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Client.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +53,7 @@
     <Content Include="CreationalPatterns\AbstractFactory\Resources\AbstractFactory2.png" />
     <Content Include="CreationalPatterns\AbstractFactory\Resources\Book_AbstractFactory.png" />
     <Content Include="Designpatternrelationships.png" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="CreationalPatterns\AbstractFactory\README.MD" />
     <None Include="CreationalPatterns\README.MD" />
     <None Include="README.MD" />

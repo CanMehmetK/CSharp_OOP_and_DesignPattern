@@ -6,11 +6,27 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    public class ProductB1 : AbstractProductB
+    /// <summary>
+    /// The 'ProductB1' class
+    /// </summary>
+    class ProductB1 : AbstractProductB
     {
+        public override void Interact(AbstractProductA a)
+        {
+            Console.WriteLine(this.GetType().Name +
+              " interacts with " + a.GetType().Name);
+        }
     }
 
-    public class ProductB2 : AbstractProductB
+    /// <summary>
+    /// The 'ProductB2' class
+    /// </summary>
+    class ProductB2 : AbstractProductB
     {
+        public override void Interact(AbstractProductA a)
+        {
+            Console.WriteLine(this.GetType().Name +
+              " interacts with " + a.GetType().Name);
+        }
     }
 }

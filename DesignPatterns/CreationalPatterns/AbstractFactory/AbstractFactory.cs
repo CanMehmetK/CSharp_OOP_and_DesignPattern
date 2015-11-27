@@ -15,9 +15,12 @@ namespace DesignPatterns.CreationalPatterns.AbstractFactory
         Bu fabrika sınıfları ortak bir soyut fabrikadan türetilir.
     */
 
-    public interface AbstractFactroy
+    /// <summary>
+    /// The 'AbstractFactory' abstract class
+    /// </summary>
+    abstract class AbstractFactory
     {
-        ProductA1 createProductA();
-        ProductB1 createProductB();
+        public abstract AbstractProductA CreateProductA();
+        public abstract AbstractProductB CreateProductB();
     }
 }
