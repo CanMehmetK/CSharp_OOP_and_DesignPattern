@@ -40,20 +40,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfCommand\_Completed.cs" />
+    <Compile Include="Behavioral\Command\_Complated.cs" />
+    <Compile Include="Behavioral\Interpreter\_Completed.cs" />
+    <Compile Include="Behavioral\Iterator\_Completed.cs" />
+    <Compile Include="Behavioral\Mediator\_Completed.cs" />
+    <Compile Include="Behavioral\Memento\_Completed.cs" />
+    <Compile Include="Behavioral\Observer\_Completed.cs" />
+    <Compile Include="Behavioral\State\_Completed.cs" />
+    <Compile Include="Behavioral\Strategy\_Completed.cs" />
+    <Compile Include="Behavioral\TemplateMethod\_Completed.cs" />
+    <Compile Include="Behavioral\Visitor\_Completed.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductA.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Client.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\_Completed.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductB.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\ProductA.cs" />
+    <Compile Include="CreationalPatterns\Builder\_Completed.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\_Completed.cs" />
+    <Compile Include="CreationalPatterns\Prototype\_Completed.cs" />
+    <Compile Include="CreationalPatterns\Singleton\_Completed.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\_Completed.cs" />
+    <Compile Include="Structural\Bridge\_Completed.cs" />
+    <Compile Include="Structural\Composite\_Completed.cs" />
+    <Compile Include="Structural\Decorator\_Completed.cs" />
+    <Compile Include="Structural\Facade\_Completed.cs" />
+    <Compile Include="Structural\Flyweight\_Completed.cs" />
+    <Compile Include="Structural\Proxy\_Completed.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CreationalPatterns\AbstractFactory\Resources\AbstractFactory.png" />
     <Content Include="CreationalPatterns\AbstractFactory\Resources\AbstractFactory2.png" />
     <Content Include="CreationalPatterns\AbstractFactory\Resources\Book_AbstractFactory.png" />
     <Content Include="Designpatternrelationships.png" />
-    <None Include="ClassDiagram1.cd" />
     <None Include="CreationalPatterns\AbstractFactory\README.MD" />
     <None Include="CreationalPatterns\README.MD" />
     <None Include="README.MD" />

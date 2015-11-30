@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "DesignPatternsModel", "..\DesignPatternsModel\DesignPatternsModel.modelproj", "{3135D55B-1989-493F-B6AE-4E0246CB652E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F46BB4BB-C183-4F7D-8DAD-297C04178624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3135D55B-1989-493F-B6AE-4E0246CB652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3135D55B-1989-493F-B6AE-4E0246CB652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3135D55B-1989-493F-B6AE-4E0246CB652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3135D55B-1989-493F-B6AE-4E0246CB652E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
