@@ -5,7 +5,7 @@ namespace GangOfFour.Structural
     //--- Attach additional responsibilities to an object dynamically.
     //--- Decorators provide a flexible alternative to subclassing for extending functionality.
 
-    internal static class UsageDecorator
+    public static class UsageDecorator
     {
         internal static void UsageMethod()
         {

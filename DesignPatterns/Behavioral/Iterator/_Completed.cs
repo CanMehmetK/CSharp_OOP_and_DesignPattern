@@ -6,7 +6,7 @@ namespace GangOfFour.Behavioral
     //--- Provide a way to access the elements of an aggregate object  
     //--- sequentially without exposing its underlying representation.
 
-    internal static class UsageIterator
+    public static class UsageIterator
     {
         internal static void UsageMethod()
         {

@@ -1,13 +1,13 @@
 ﻿using System;
-
-namespace GangOfFour.Structural
+//           GangOfFour.Structural.UsageAdapter
+namespace GangOfFour.Structural // UsageAdapter
 {
     //--- Convert the interface of a class into another interface clients expect.
     //--- Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
-    internal static class UsageAdapter
+    public static class UsageAdapter
     {
-        internal static void UsageMethod()
+        public static void UsageMethod()
         {
             Target target = new Adapter();
             target.TargetRequest();

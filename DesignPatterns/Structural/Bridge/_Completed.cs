@@ -4,7 +4,7 @@ namespace GangOfFour.Structural
 {
     //--- Decouple an abstraction from its implementation so that the two can vary independently.
 
-    internal static class UsageBridge
+    public static class UsageBridge
     {
         internal static void UsageMethod()
         {

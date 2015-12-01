@@ -5,7 +5,7 @@ namespace GangOfFour.Structural
 {
     //--- Use sharing to support large numbers of fine-grained objects efficiently.
 
-    internal static class UsageFlyweight
+    public static class UsageFlyweight
     {
         internal static void UsageMethod()
         {

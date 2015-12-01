@@ -5,7 +5,7 @@ namespace GangOfFour.Creational
     //--- Specify the kind of objects to create using a prototypical instance, 
     //--- and create new objects by copying this prototype.
 
-    internal static class UsagePrototype
+    public static class UsagePrototype
     {
         internal static void UsageMethod()
         {

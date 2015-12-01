@@ -6,7 +6,7 @@ namespace GangOfFour.Creational
     //--- Separate the construction of a complex object from its representation 
     //--- so that the same construction process can create different representations.
 
-    internal static class UsageBuilder
+    public static class UsageBuilder
     {
         internal static void UsageMethod()
         {

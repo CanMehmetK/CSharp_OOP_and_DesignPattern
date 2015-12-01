@@ -5,7 +5,7 @@ namespace GangOfFour.Creational
     //--- Provide an interface for creating families of related or 
     //--- dependent objects without specifying their concrete classes.
 
-    internal static class UsageAbstractFactory
+    public static class UsageAbstractFactory
     {
         internal static void UsageMethod()
         {

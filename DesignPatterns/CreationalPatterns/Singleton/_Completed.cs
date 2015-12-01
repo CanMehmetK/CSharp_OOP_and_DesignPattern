@@ -5,7 +5,7 @@ namespace GangOfFour.Creational
 {
     //--- Ensure a class has only one instance and provide a global point of access to it.
 
-    internal static class UsageSingleton
+    public static class UsageSingleton
     {
         internal static void UsageMethod()
         {
