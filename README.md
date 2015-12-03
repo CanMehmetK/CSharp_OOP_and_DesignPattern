@@ -39,3 +39,19 @@ Kitapta konu edilen kalıplar aşağıdaki gibi. ( İşlendikçe aşağıda işa
 * [Strategy](DesignPatterns/Behavioral/strategy)
 * [Template Method](DesignPatterns/Behavioral/TemplateMethod)
 * [Visitor](DesignPatterns/Behavioral/Visitor)
+
+As Christopher Alexander said:
+Each pattern describes a problem which occurs over and over again in our environment,
+and then describes the core of the solution to that problem, in such a way that you can
+use this solution a million times over, without ever doing it the same way twice.
+
+
+in Professional ASP.NET Design Patterns Book / Scott Millett says;
+What They Are Not
+Design patterns are no silver bullet. You have to fully understand your problem, generalize it, and
+then apply a pattern applicable to it. However, not all problems require a design pattern. It’s true
+that design patterns can help make complex problems simple, but they can also make simple problems
+complex.
+    
+
+
