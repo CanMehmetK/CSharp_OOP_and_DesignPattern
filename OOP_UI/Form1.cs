@@ -47,22 +47,13 @@ namespace OOP_UI
             // No chieldren then run class ext.
             if (e.Node.FullPath.EndsWith(e.Node.Text))
             {
-                // var a = GangOfFour.Structural.UsageAdapter.UsageMethod();
-                //tempClass.GetMethod("Run", BindingFlags.Public | BindingFlags.Static).Invoke(null, null);
-                //          GangOfFour.Structural.UsageAdapter
-                //DesignPatterns\GangOfFour.Structural\UsageAdapter
+                // Pattern ismini al
                 string assName = string.Join(".", e.Node.FullPath.Split('\\').Skip(1));
-                Type.GetType(assName).GetMethod("UsageMethod").Invoke(null, null);
-                myInvoke(assName, "UsageMethod");
-                var ass = new AssemblyName(assName);
-                
-                Type asseblyType = ass.GetType();
-                var secilenPattern = Activator.CreateInstance(asseblyType);
-                Type patternType = secilenPattern.GetType();
-                //Invoke<asseblyType>();
-                MethodInfo mi = patternType.GetMethod("UsageMethod", BindingFlags.NonPublic | BindingFlags.Instance);
-                var result = mi.Invoke(secilenPattern, null);
-                //  ass.GetType().GetMethod(assName.Split('.').Last()).Invoke(null, null);
+
+                var PatternInstance = Activator.CreateInstance(Type.GetType(assName + ",DesignPatterns"));
+                var PatternMethod = PatternInstance.GetType().GetMethod("UsageMethod");
+                /// Buraya Debug Ekleyip Stepinto(F11) ile ilerleyin... gibi gibi.
+                PatternMethod.Invoke(PatternInstance, null);
             }
 
         }

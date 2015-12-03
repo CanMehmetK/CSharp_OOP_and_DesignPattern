@@ -6,9 +6,9 @@ namespace GangOfFour.Behavioral
     //--- Represent an operation to be performed on the elements of an object structure. 
     //--- Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
-    public static class UsageVisitor
+    public class UsageVisitor
     {
-        public static void UsageMethod()
+        public void UsageMethod()
         {
             ObjectStructure o = new ObjectStructure();
             o.Attach(new ConcreteElementA());

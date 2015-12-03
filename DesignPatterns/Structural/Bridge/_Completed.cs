@@ -4,9 +4,9 @@ namespace GangOfFour.Structural
 {
     //--- Decouple an abstraction from its implementation so that the two can vary independently.
 
-    public static class UsageBridge
+    public class UsageBridge
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Abstracion ab = new RefinedAbstracion();
             ab.Implementor = new ConcreteImplementorA();

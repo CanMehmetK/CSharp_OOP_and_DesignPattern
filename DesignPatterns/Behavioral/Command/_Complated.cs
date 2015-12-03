@@ -5,9 +5,9 @@ namespace GangOfFour.Behavioral
     //--- Encapsulate a request as an object, thereby letting you parameterize clients 
     //--- with different requests, queue or log requests, and support undoable operations.
 
-    public static class UsageCommand
+    public class UsageCommand
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Receiver receiver = new Receiver();
             Command command = new ConcreteCommand(receiver);

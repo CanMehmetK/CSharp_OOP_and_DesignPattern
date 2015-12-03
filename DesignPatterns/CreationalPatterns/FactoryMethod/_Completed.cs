@@ -5,9 +5,9 @@ namespace GangOfFour.Creational
     //--- Define an interface for creating an object, but let subclasses decide which class to instantiate. 
     //--- Factory Method lets a class defer instantiation to subclasses.
 
-    public static class UsageFactoryMethod
+    public class UsageFactoryMethod
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             ICreator[] creators = new ICreator[2];
             creators[0] = new ConcreteCreator1();

@@ -5,9 +5,9 @@ namespace GangOfFour.Behavioral
     //--- Without violating encapsulation, capture and externalize an object's 
     //--- internal state so that the object can be restored to this state later.
 
-    public static class UsageMemento
+    public class UsageMemento
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Originator o = new Originator() { State = "On" };
             Caretaker c = new Caretaker() { Memento = o.CreateMemento() };

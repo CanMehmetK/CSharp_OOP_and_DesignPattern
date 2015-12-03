@@ -4,9 +4,9 @@ namespace GangOfFour.Structural
 {
     //--- Provide a surrogate or placeholder for another object to control access to it.
 
-    public static class UsageProxy
+    public class UsageProxy
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Proxy proxy = new Proxy();
             proxy.Request();

@@ -6,9 +6,9 @@ namespace GangOfFour.Behavioral
     //--- Define a one-to-many dependency between objects so that when one object changes state, 
     //--- all its dependents are notified and updated automatically.
 
-    public static class UsageObserver
+    public class UsageObserver
     {
-        public static void UsageMethod()
+        public void UsageMethod()
         {
             ConcreteSubject s = new ConcreteSubject();
             s.Attach(new ConcreteObserver(s, "X"));

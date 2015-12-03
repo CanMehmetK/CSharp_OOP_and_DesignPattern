@@ -5,16 +5,16 @@ namespace GangOfFour.Creational
     //--- Specify the kind of objects to create using a prototypical instance, 
     //--- and create new objects by copying this prototype.
 
-    public static class UsagePrototype
+    public class UsagePrototype
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             ConcretePrototype1 originalObject1 = new ConcretePrototype1("Type 1");
             ConcretePrototype1 clonedObject1 = (ConcretePrototype1)originalObject1.Clone();
-            System.Diagnostics.Debug.WriteLine("The cloned object is: {0}", clonedObject1.Id);
+            System.Diagnostics.Debug.WriteLine(string.Format("The cloned object is: {0}", clonedObject1.Id));
             ConcretePrototype2 originalObject2 = new ConcretePrototype2("Type 2");
             ConcretePrototype2 clonedObject2 = (ConcretePrototype2)originalObject2.Clone();
-            System.Diagnostics.Debug.WriteLine("The cloned object is: {0}", clonedObject2.Id);
+            System.Diagnostics.Debug.WriteLine(string.Format("The cloned object is: {0}", clonedObject2.Id));
         }
     }
 

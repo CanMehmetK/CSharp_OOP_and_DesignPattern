@@ -5,9 +5,9 @@ namespace GangOfFour.Structural
 {
     //--- Use sharing to support large numbers of fine-grained objects efficiently.
 
-    public static class UsageFlyweight
+    public class UsageFlyweight
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             int extrinsicstate = 22;
             FlyweightFactory factory = new FlyweightFactory();

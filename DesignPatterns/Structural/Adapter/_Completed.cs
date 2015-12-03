@@ -5,9 +5,9 @@ namespace GangOfFour.Structural // UsageAdapter
     //--- Convert the interface of a class into another interface clients expect.
     //--- Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
-    public static class UsageAdapter
+    public class UsageAdapter
     {
-        public static void UsageMethod()
+        public void UsageMethod()
         {
             Target target = new Adapter();
             target.TargetRequest();

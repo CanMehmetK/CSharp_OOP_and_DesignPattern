@@ -6,9 +6,9 @@ namespace GangOfFour.Structural
     //--- Compose objects into tree structures to represent part-whole hierarchies. 
     //--- Composite lets clients treat individual objects and compositions of objects uniformly.
 
-    public static class UsageComposite
+    public class UsageComposite
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Composite root = new Composite("root");
             root.Add(new Leaf("Branch 1A"));

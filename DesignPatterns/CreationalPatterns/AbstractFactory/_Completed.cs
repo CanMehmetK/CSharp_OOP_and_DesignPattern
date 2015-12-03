@@ -5,9 +5,9 @@ namespace GangOfFour.Creational
     //--- Provide an interface for creating families of related or 
     //--- dependent objects without specifying their concrete classes.
 
-    public static class UsageAbstractFactory
+    public class UsageAbstractFactory
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             IAbstractFactoryBase factory1 = new ConcreteFactory1();
             ClientClass client1 = new ClientClass(factory1);

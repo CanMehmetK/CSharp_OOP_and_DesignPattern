@@ -5,9 +5,9 @@ namespace GangOfFour.Behavioral
     //--- Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. 
     //--- Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
-    public static class UsageTemplete
+    public class UsageTemplete
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             IAbstractClass aA = new ConcreteClassA();
             aA.TemplateMethod();

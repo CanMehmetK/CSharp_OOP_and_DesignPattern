@@ -6,9 +6,9 @@ namespace GangOfFour.Behavioral
     //--- Given a language, define a representation for its grammar along with an 
     //--- interpreter that uses the representation to interpret sentences in the language.
 
-    public static class UsageInterpreter
+    public class UsageInterpreter
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             Context context = new Context();
             ArrayList list = new ArrayList();

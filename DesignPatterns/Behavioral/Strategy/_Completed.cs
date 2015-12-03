@@ -5,9 +5,9 @@ namespace GangOfFour.Behavioral
     //--- Define a family of algorithms, encapsulate each one, and make them interchangeable. 
     //--- Strategy lets the algorithm vary independently from clients that use it.
 
-    public static class UsageStrategy
+    public class UsageStrategy
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             StrategyContext context;
             context = new StrategyContext(new ConcreteStrategyA());

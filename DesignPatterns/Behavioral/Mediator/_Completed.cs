@@ -5,9 +5,9 @@ namespace GangOfFour.Behavioral
     //--- Define an object that encapsulates how a set of objects interact. 
     //--- Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
 
-    public static class UsageMediator
+    public class UsageMediator
     {
-        internal static void UsageMethod()
+        public void UsageMethod()
         {
             ConcreteMediator m = new ConcreteMediator();
             ConcreteColleague1 c1 = new ConcreteColleague1(m);
