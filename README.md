@@ -12,20 +12,20 @@ GoF (Gang of Four) kalıpları 1994'te yayınanan dört yazarlı bir kitap ile d
 Kitapta konu edilen kalıplar aşağıdaki gibi. ( İşlendikçe aşağıda işaretlenecektir. )
 
 ### Creational Patterns
-* [Abstract Factory](https://github.com/kanpinar/CSharp_OOP_and_DesignPattern/tree/master/DesignPatterns/CreationalPatterns/AbstractFactory)
-* [Builder](DesignPatterns/CreationalPatterns/AbstractFactory)
-* [Factory Method]()
-* [Prototype]()
-* [Singleton]()
+* [Abstract Factory](DesignPatterns/CreationalPatterns/AbstractFactory)
+* [Builder](DesignPatterns/CreationalPatterns/Builder)
+* [Factory Method](DesignPatterns/CreationalPatterns/FactoryMethod)
+* [Prototype](DesignPatterns/CreationalPatterns/Prototype)
+* [Singleton](DesignPatterns/CreationalPatterns/Singleton)
 
 ### Structural Patterns
-* [Adapter]()
-* [Bridge]()
-* [Composite]()
-* [Decorator]()
-* [Façade]()
-* [Flyweight]()
-* [Proxy]()
+* [Adapter](DesignPatterns/Structural/Adapter)
+* [Bridge](DesignPatterns/Structural/Bridge)
+* [Composite](DesignPatterns/Structural/Composite)
+* [Decorator](DesignPatterns/Structural/Decorator)
+* [Facade](DesignPatterns/Structural/Facade)
+* [Flyweight](DesignPatterns/Structural/Flyweight)
+* [Proxy](DesignPatterns/Structural/Proxy)
     
 ### Behavioral Patterns
 * [Chain of Responsibility]()
