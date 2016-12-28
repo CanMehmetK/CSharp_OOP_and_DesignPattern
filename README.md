@@ -36,7 +36,7 @@ Kitapta konu edilen kalıplar aşağıdaki gibi. ( İşlendikçe aşağıda işa
 * [Memento](DesignPatterns/Behavioral/Memento)
 * [Observer](DesignPatterns/Behavioral/Observer)
 * [State](DesignPatterns/Behavioral/State)
-* [Strategy](DesignPatterns/Behavioral/strategy)
+* [Strategy](DesignPatterns/Behavioral/Strategy)
 * [Template Method](DesignPatterns/Behavioral/TemplateMethod)
 * [Visitor](DesignPatterns/Behavioral/Visitor)
 
